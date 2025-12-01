@@ -1,0 +1,9 @@
+./venv/*
+venv/
+venv/*
+Rock Paper Scissors SXSW.v14i.tensorflow
+Rock Paper Scissors SXSW.v14i.tensorflow/*
+Rock Paper Scissors SXSW.v14i.tensorflow/
+code/videos_noaudio/
+code/videos_transformed/
+data/final_split_dataset/
