@@ -12,6 +12,11 @@ from collections import deque
 from torchvision import transforms
 from PIL import Image
 
+# ========================================
+# Version of the file: live_battle_10f.py
+# ========================================
+
+
 # --- CONFIGURATION ---
 script_dir = os.path.dirname(os.path.abspath(__file__))
 TCN_MODEL_PATH = os.path.join(script_dir, "rps_tcn_model.pth") 

@@ -9,6 +9,10 @@ import mediapipe as mp
 from pathlib import Path
 from tqdm import tqdm
 
+# ========================================
+# Version of the file: data_splitting_ver3.py
+# ========================================
+
 # --- CONFIGURATION ---
 INPUT_DIR = Path('data/noaudio_ver5')   # Your source data 
 OUTPUT_DIR = Path('data/final_split_dataset')
