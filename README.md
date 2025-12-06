@@ -24,7 +24,7 @@ The git contains the following structure:
 └── TCN_test_Ilia_7.ipynb       -> main file with the TCN model
 
 # datasets:
-https://universe.roboflow.com/roboflow-58fyf/rock-paper-scissors-sxsw/dataset/14
+https://drive.google.com/drive/folders/1yZMYdbUkMhnvQazs3OVpYUC7R1Ky9l4b?usp=sharing
 
 
 # project ost:
