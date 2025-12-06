@@ -23,6 +23,12 @@ The git contains the following structure:
 ├── rps_tcn_model.pth           -> model weights
 └── TCN_test_Ilia_7.ipynb       -> main file with the TCN model
 
+# Example 
+
+
+https://github.com/user-attachments/assets/ddd86337-263c-498b-b0c7-1373e4ca9a76
+
+
 # datasets:
 https://drive.google.com/drive/folders/1yZMYdbUkMhnvQazs3OVpYUC7R1Ky9l4b?usp=sharing
 
