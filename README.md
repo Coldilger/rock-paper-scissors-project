@@ -27,7 +27,24 @@ Our approach solves the **"Rock Paradox"** (where all moves start looking like R
 4.  **Optimization:** Trained using a **Sigmoid Time-Weighted Loss** to penalize early-game ambiguity less than late-game precision.
 
 ## 📂 Project Structure
-ZeroLag-RPS/ ├── data/ # Dataset placeholder (see download link below) ├── docs/ # Project Report and Presentation slides ├── models/ # Trained model weights (.pth) ├── notebooks/ # Experimental notebooks (Data analysis, TCN training) ├── scripts/ # Inference and utility scripts │ ├── live_inference.py # Main script for the live battle │ └── preprocessing.py # Hand crop and normalization logic ├── requirements.txt # Python dependencies └── README.md
+
+```text
+ZeroLag-RPS/
+├── data/                  # Dataset placeholder (download link below)
+├── docs/                  # Documentation, Report, and Slides
+│   ├── Project_CV_report.pdf
+│   └── Presentation.pptx
+├── models/                # Trained model weights (.pth)
+├── notebooks/             # Experiments and drafts
+│   ├── TCN_training.ipynb
+│   └── data_analysis.ipynb
+├── scripts/               # Source code
+│   ├── live_inference.py  # Main script for the live battle
+│   ├── preprocessing.py   # Hand crop and normalization logic
+│   └── utils.py           # Helper functions
+├── requirements.txt       # Python dependencies
+└── README.md
+```
 
 ## 🚀 Installation & Usage
 
