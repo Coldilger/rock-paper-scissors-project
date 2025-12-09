@@ -33,5 +33,3 @@ https://github.com/user-attachments/assets/ddd86337-263c-498b-b0c7-1373e4ca9a76
 https://drive.google.com/drive/folders/1yZMYdbUkMhnvQazs3OVpYUC7R1Ky9l4b?usp=sharing
 
 
-# project ost:
-https://open.spotify.com/track/07UfHum6GRuQSSp3QwxGM7?si=c2988149e8f54bb4
