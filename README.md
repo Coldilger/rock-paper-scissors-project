@@ -13,7 +13,7 @@ Real-time gesture recognition systems often suffer from latency due to the class
 
 We developed a hybrid architecture combining a **ResNet-18 spatial encoder** with a **Temporal Convolutional Network (TCN) head**, trained on a custom dataset of gesture sequences. The TCN's dilated causal convolutions efficiently model temporal dependencies within a 64-frame window, enabling the detection of subtle "wind-up" micromovements. Deployed in a live environment, the system delivers zero-latency counter-moves for a seamless user experience.
 ## 🎥 Demo
-
+![System Demo](docs/rps_s.gif)
 
 *The system predicts "Scissors" (and plays "Rock") while the hand is still in the wind-up phase.*
 
@@ -29,13 +29,27 @@ Our approach solves the **"Rock Paradox"** (where all moves start looking like R
 ## 📂 Project Structure
 ZeroLag-RPS/ ├── data/ # Dataset placeholder (see download link below) ├── docs/ # Project Report and Presentation slides ├── models/ # Trained model weights (.pth) ├── notebooks/ # Experimental notebooks (Data analysis, TCN training) ├── scripts/ # Inference and utility scripts │ ├── live_inference.py # Main script for the live battle │ └── preprocessing.py # Hand crop and normalization logic ├── requirements.txt # Python dependencies └── README.md
 
-# Example 
+## 🚀 Installation & Usage
 
+### 1. Clone the repository
+```bash
+git clone [https://github.com/Coldilger/ZeroLag-RPS.git](https://github.com/Coldilger/ZeroLag-RPS.git)
+cd ZeroLag-RPS
+```
+### 2. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+### 3. Run the Live Agent
+```bash
+python scripts/live_inference.py
+```
 
-https://github.com/user-attachments/assets/ddd86337-263c-498b-b0c7-1373e4ca9a76
+## 📊 Dataset
+The model was trained on a custom dataset comprising ~5,300 frames of Rock, Paper, and Scissors gestures recorded at 20fps.
+- Download the dataset [here](https://drive.google.com/drive/folders/1yZMYdbUkMhnvQazs3OVpYUC7R1Ky9l4b?usp=sharing)
 
-
-# datasets:
-https://drive.google.com/drive/folders/1yZMYdbUkMhnvQazs3OVpYUC7R1Ky9l4b?usp=sharing
-
-
+## 👥 Contributors
+- Ilia Koldyshev
+- Gaia Iori
+- Parsa Bakhtiari
